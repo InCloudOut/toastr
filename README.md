@@ -1,8 +1,8 @@
 # Laravel Toastr
-
-[![Total Downloads](https://poser.pugx.org/polygon/invoicexpress/downloads.svg)](https://packagist.org/packages/polygon/invoicexpress)
-[![Latest Stable Version](https://poser.pugx.org/polygon/invoicexpress/v/stable.svg)](https://packagist.org/packages/polygon/invoicexpress)
-[![Latest Unstable Version](https://poser.pugx.org/polygon/invoicexpress/v/unstable.svg)](https://packagist.org/packages/polygon/invoicexpress)
+[![Build Status](https://travis-ci.org/InCloudOut/toastr.svg?branch=master)](https://travis-ci.org/InCloudOut/toastr)
+[![Latest Stable Version](https://poser.pugx.org/incloudout/toastr/v/stable)](https://packagist.org/packages/incloudout/toastr)
+[![Total Downloads](https://poser.pugx.org/incloudout/toastr/downloads)](https://packagist.org/packages/incloudout/toastr)
+[![License](https://poser.pugx.org/incloudout/toastr/license)](https://packagist.org/packages/incloudout/toastr)
 
 Laravel Toastr uses [toastr.js](https://github.com/CodeSeven/toastr) to display flash messages.
 
