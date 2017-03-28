@@ -1,0 +1,30 @@
+{
+    "name": "incloudout/toastr",
+    "description": "Laravel 5.4 notifications using toastr",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "toastr", "notification"],
+    "authors": [
+        {
+            "name": "Hugo Rodrigues",
+            "email": "hrodrigues1984@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.4.*",
+        "illuminate/session": "5.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "mockery/mockery": "^0.9.9",
+        "orchestra/testbench": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "InCloudOut\\Toastr\\": "src/",
+            "InCloudOut\\Toastr\\Tests\\": "tests/"
+        }
+    }
+}
