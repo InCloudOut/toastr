@@ -22,7 +22,7 @@
         "orchestra/testbench": "^3.4"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "InCloudOut\\Toastr\\": "src/"
         }
     },
