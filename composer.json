@@ -22,8 +22,12 @@
         "orchestra/testbench": "^3.4"
     },
     "autoload": {
+        "psr-0": {
+            "InCloudOut\\Toastr\\": "src/"
+        }
+    },
+    "autoload-dev": {
         "psr-4": {
-            "InCloudOut\\Toastr\\": "src/",
             "InCloudOut\\Toastr\\Tests\\": "tests/"
         }
     }

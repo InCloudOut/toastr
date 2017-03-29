@@ -7,6 +7,13 @@ use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 class ToastrServiceProvider extends LaravelServiceProvider
 {
     /**
+     * Indicates if loading of the provider is deferred.
+     *
+     * @var bool
+     */
+    protected $defer = true;
+
+    /**
      * Bootstrap the application services.
      *
      * @return void
