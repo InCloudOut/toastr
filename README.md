@@ -30,7 +30,7 @@ Edit `config/app.php` add the `provider` and the `alias`
 ``` 
 #####  To install `toastr.js` via `npm`
 
-Run `npm require --save-dev toastr`
+Run `npm i --save-dev toastr`
  
 Open `resources/assets/sass/app.scss` and add:
     
