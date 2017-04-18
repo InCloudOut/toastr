@@ -2,8 +2,6 @@
 
 namespace InCloudOut\Toastr\Tests;
 
-use InCloudOut\Toastr\Toastr;
-
 class ToastrTest extends AbstractTest
 {
     /**

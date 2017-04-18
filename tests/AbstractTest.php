@@ -3,13 +3,9 @@ namespace InCloudOut\Toastr\Tests;
 
 use InCloudOut\Toastr\Toastr;
 use Orchestra\Testbench\TestCase;
-use Illuminate\Contracts\Config\Repository;
-use Illuminate\Session\SessionManager;
-use Mockery as m;
 
 abstract class AbstractTest extends TestCase
 {
-
     protected $session;
 
     protected $config;
@@ -60,5 +56,4 @@ abstract class AbstractTest extends TestCase
             ],
         ]);
     }
-
 }
